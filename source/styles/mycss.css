@@ -115,7 +115,10 @@ footer,
 .priceall {
     justify-content:space-around;
 }
-
+.geo {
+    display: flex;
+    justify-content: center;
+}
 
 
 
