@@ -13,6 +13,15 @@
   <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
   <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
   <title>Dinamo</title>
+  <title>Фоновое изображение с помощью CSS</title>
+  <style>
+ body {
+   background: #545252 url(source/files/abstract2.jpg); /* Фоновый цвет и фоновый рисунок*/
+   color: #fff; /*Цвет текста на странице*/
+   background-attachment: fixed; /* Фон страницы фиксируется */
+   background-repeat: repeat-x; /* Изобьражение повторяется по горизонтали */
+ }
+  </style>
 </head>
 
 <body>
@@ -76,23 +85,23 @@
 
     <div class="contacts-page__content-block">
     <p>
-<span itemprop="name" style="font-size: 50px;" class="semibold">ООО «Завод «Динамо»</span>
+<span itemprop="name" style="font-size: 50px; background-color: #545252;" class="semibold">ООО «Завод «Динамо»</span>
     </p>
     <p itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-<span class="semibold" style="font-size: 25px;">Адрес:</span> <span itemprop="postalCode" style="font-size: 20px;">91001</span>, <span itemprop="addressLocality" style="font-size: 20px;">г. Луганск</span>,<span itemprop="streetAddress" style="font-size: 20px;"> ул. Сараева, д. 33</span>
+<span class="semibold" style="font-size: 25px; background-color: #545252;">Адрес:</span> <span itemprop="postalCode" style="font-size: 20px; background-color: #545252;">91001</span>, <span itemprop="addressLocality" style="font-size: 20px; background-color: #545252;">г. Луганск</span>,<span itemprop="streetAddress" style="font-size: 20px; background-color: #545252;"> ул. Сараева, д. 33</span>
     </p>
     <p>
-<span class="semibold" style="font-size: 25px;">Телефон:</span> <span itemprop="telephone" style="font-size: 20px;"><a href="+79591304613" class="copyphone">+7(959)1304613
+<span class="semibold" style="font-size: 25px; background-color: #545252;">Телефон:</span> <span itemprop="telephone" style="font-size: 20px; background-color: #710505;"><a href="+79591304613" class="copyphone">+7(959)1304613
 </a></span>
     </p>
     <p>
-<span class="semibold" style="font-size: 25px;">E-mail:</span> <a href="https://mail.ru/" target="_blank" itemprop="email" class="copymail" style="font-size: 20px;">den_dinamo_13@mail.ru</a>
+<span class="semibold" style="font-size: 25px; background-color: #545252;">E-mail:</span> <a href="https://mail.ru/" target="_blank" itemprop="email" class="copymail" style="font-size: 20px; background-color: #710505;">den_dinamo_13@mail.ru</a>
     </p>
     <div class="contacts-page__content-block">
       <p>
-  <span itemprop="name" style="font-size: 40px;" class="semibold">Доставка</span>
+  <span itemprop="name" style="font-size: 40px; background-color: #545252;" class="semibold">Доставка</span>
       </p>
-      <p>«ЖелДорЭкспедиция» - крупнейший транспортный оператор на рынке доставки сборных грузов по России и всему миру, а также экспресс – доставки.</p>
+      <p  style="font-size: 20px; background-color: #545252;">«ЖелДорЭкспедиция» - крупнейший транспортный оператор на рынке доставки сборных грузов <br> по России и всему миру, а также экспресс – доставки.</p>
       <a class="nav-link" href="https://www.jde.ru/" target="_blank">
         <img style="width: 170px; margin-inline: 1em;" src="https://avatars.mds.yandex.net/i?id=d7b792a0d16de768cfe2f0b91df86caf1f1259a1-7760813-images-thumbs&n=13" alt="...">
       </a>
